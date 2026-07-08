@@ -17,7 +17,7 @@ _ERROR_STATUS_MAP = {
     InvalidTokenError: status.HTTP_401_UNAUTHORIZED,
     JobNotFoundError: status.HTTP_404_NOT_FOUND,
     UnsupportedMediaTypeError: status.HTTP_415_UNSUPPORTED_MEDIA_TYPE,
-    FileTooLargeError: status.HTTP_413_CONTENT_TOO_LARGE,
+    FileTooLargeError: status.HTTP_413_REQUEST_ENTITY_TOO_LARGE,
     InferenceServiceError: status.HTTP_502_BAD_GATEWAY,
 }
 
